@@ -97,6 +97,6 @@ class MainActivity : AppCompatActivity() {
             else -> throw IllegalArgumentException("Unknown operator: $operador")
         }
 
-        return String.format("%.2f", resultado) // Format the result to two decimal places
+        return String.format("%.0f", resultado) // Format the result to two decimal places
     }
 }
